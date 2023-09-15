@@ -1,0 +1,604 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+
+#header{
+    border: 2px solid black;
+    text-align: center;
+    background-color:rgb(21, 2, 59);
+    color: white;
+}
+#social-link i{
+    color: white;
+}
+#social-link{
+    display: flex;
+    justify-content:center;
+}
+#social-link ul li{
+    display: inline;
+    margin: 10px;
+    padding: 0;
+    justify-content: space-between;
+}
+#menu{
+    background-color: darkred;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+#menu li{
+    display: block;
+    display: inline;
+    justify-content:center;
+    margin: 20px;
+    margin-left: 0px;
+}
+#menu a{
+    color: white;
+    text-decoration:none ;
+}
+#menu a:hover{
+    background-color: rgb(21, 2, 59);
+    padding: 5px;
+}
+#BASIC{
+    width: 200px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+#BASIC:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#basicpic img{
+    width: 200px;
+}
+#learnmore A{
+    text-decoration: none;
+}
+#aboutUs{
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color: yellow;
+    margin-top: 10px;
+}
+#DTP{
+    width: 200px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+#DTP:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#DIPLOMA{
+    width: 200px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+#DIPLOMA:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#TALLY{
+    width: 200px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left; 
+}
+#TALLY:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#DFA{
+    width: 200px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+#DFA:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#ADFA{
+    width: 200px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+#ADFA:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#PDFA{
+    width: 200px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+#PDFA:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#TEXTION{
+    width: 200px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+#TEXTION:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#programming{
+    width: 200px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+#programming:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#professional{
+    width: 200px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+#professional:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#Other{
+    width: 200px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+#Other:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#Personality{
+    width: 200px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;
+}
+#Personality:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#DIGITAL{
+    width: 200px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;   
+}
+#DIGITAL:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#ANDROID{
+    width: 200px;
+    height: 360px;
+    border: 1px solid black;
+    padding: 30px;
+    position: relative;
+    margin-left: 100px;
+    margin-top: 100px;
+    float: left;   
+}
+#ANDROID:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#basicpic img:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#learnmore A{
+    color: rgb(255, 62, 4);
+}
+#learnmore A:hover{
+    color: darkblue;
+}
+#aboutUs:hover{
+    background-color:  darkblue;
+    box-shadow: 0px 0px 20px 0px yellow;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: blacks;
+}
+#job{
+    margin-top: 150px;
+    margin-left: 100px;
+    float: left;
+    font-size: 200%;
+    font-family: Abril Fatface;
+    margin-bottom: 100px;
+    color: rgb(21, 2, 59);
+}
+#job h3{
+    text-align: center;    
+}
+#footar{
+    border: 1px solid black;
+    height: 250px;
+    background-color: rgb(21, 2, 59);
+    clear: both;
+    color: white;
+}
+#target{
+    font-size: 150%;
+    text-align: center;
+    font-family: abril FAtface;
+}
+#branche{
+    font-size: 200%;
+    font-family: abril FAtface;
+    margin-left: 20px;
+    float: left;
+}
+#Karol{
+    float: left;
+    margin-left: 150px;
+}
+#Karol h3{
+    font-size: 150%;
+}
+#subhash{
+    float: left;
+    margin-left: 150px;
+}
+#subhash h3{
+    font-size: 150%;
+}
+#contact{
+    float: left;
+    margin-left: 150px;
+}
+#num{
+    font-size: 150%;
+}
+
+
+
+
+#iccvsBASIC{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    margin-left: 480px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px 10px black; 
+    color: black;
+}
+#img img{
+    height: 200px;
+    width: auto;
+    margin-left: 100px;
+    box-shadow: 0px 0px 20px 10px;
+}
+#iccvs{
+    margin-left: -100px;
+    margin-top: 50px;
+    font-size: 150%;
+}
+#iccvsBASIC > h1{
+    margin-left:200px;
+
+}
+#iccvsBASIC:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#img img:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#button{
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+    margin-left: 640px;
+    margin-top: 30px;
+    background-color: purple;
+    border-radius: 20px 20px 20px 20px;
+}
+#button a{
+    text-decoration: none;
+    color: white;  
+}
+#button:hover{
+    position: relative;
+    top: -5px;
+    box-shadow: 0px 0px 30px 0px inset white;
+}
+#iccvsBASIC1{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    margin-left: 480px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px 10px black; 
+    color: black;
+}
+#iccvsBASIC1 > h1{
+    margin-left:100px;
+
+}
+#iccvsBASIC1:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#iccvsBASIC2{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    margin-left: 480px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px 10px black; 
+    color: black;
+}
+#iccvsBASIC2 > h1{
+    margin-left:90px;
+
+}
+#iccvsBASIC2:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#iccvsBASIC3{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    margin-left: 480px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px 10px black; 
+    color: black;
+}
+#iccvsBASIC3 > h1{
+    margin-left:140px;
+
+}
+#iccvsBASIC3:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#iccvsBASIC4{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    margin-left: 480px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px 10px black; 
+    color: black;
+}
+#iccvsBASIC4 > h1{
+    margin-left:60px;
+
+}
+#iccvsBASIC4:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#iccvsBASIC5{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    margin-left: 480px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px 10px black; 
+    color: black;
+}
+#iccvsBASIC5 > h1{
+    margin-left:90px;
+
+}
+#iccvsBASIC5:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#iccvsBASIC6{
+    border: 2px solid black;
+    height: 500px;
+    width: 500px;
+    margin-left: 480px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px 10px black; 
+    color: black;
+}
+#iccvsBASIC6 > h1{
+    margin-left:100px;
+
+}
+#iccvsBASIC6:hover{
+    box-shadow: 0px 0px 20px 0px yellow;
+    position: relative;
+    top:-5px;
+}
+#iccvs6{
+    margin-left: -330px;
+    margin-top: 50px;
+    font-size: 250%;
+}
+
+
+
+
+
+#form{
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    margin-top: 200px;
+    margin-left: 550px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px 0px;
+}
+#fname{
+    box-shadow: 5px 5px 5px 0px;
+    border: none;
+}
+#lname{
+    box-shadow: 5px 5px 5px 0px;
+    border: none;
+}
+
+#gmali{
+    box-shadow: 5px 5px 5px 0px;
+    border: none;
+}
+#number{
+    box-shadow: 5px 5px 5px 0px;
+    border: none;
+}
+#secelt{
+    box-shadow: 5px 5px 5px 0px;
+    border: none;
+}
+#submit{
+    box-shadow: 5px 5px 5px 0px;
+    border: none;
+}
+#submit:hover{
+    position: relative;
+    top: -5px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+
+
+.back{
+    border: 1px solid black;
+    background-color: forestgreen;
+    width: 70px;
+    height: 20px;
+    text-decoration: none;
+    margin-left: 340px;
+    padding: 7px;
+    margin-top:-350px ;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.back a{
+    color: white;
+    text-align: center;
+}
+.back:hover{
+    position: relative;
+    top: -5px;
+    box-shadow: 0px 0px 20px 0px inset black;
+    padding: 10px;
+}
+
+
+.backForm{
+    border: 1px solid black;
+    background-color: forestgreen;
+    width: 70px;
+    height: 20px;
+    text-decoration: none;
+    margin-left: 440px;
+    padding: 7px;
+    margin-top:-200px ;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+.backForm a{
+    color: white;
+    text-align: center;
+}
+.backForm:hover{
+    position: relative;
+    top: -5px;
+    box-shadow: 0px 0px 20px 0px inset black;
+    padding: 10px;
+}
+

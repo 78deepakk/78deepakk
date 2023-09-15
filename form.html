@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    ;<link rel="stylesheet" href="jquery.js">
+</head>
+<body>
+    <div id="form">
+        <form action="" id="subform">
+            FIRST NAME :
+            <input type="text" placeholder="F-NAME" id="fname">
+            <br><br>
+            LAST NAME :
+            <input type="text" placeholder="L-NAME" id="lname">
+            <br><br>
+            Gender :
+            <input type="radio" value="Male" name="gender">Male
+            <input type="radio" value="Female" name="gender">Female
+            <input type="radio" value="Other" name="gender">Other
+            <br><br>
+            Gmail :
+            <input type="Gmail" placeholder="Gmail" required id="gmali">
+            <br><br>
+            Contect Number :
+            <input type="contect" placeholder="Number" value="+91" id="number">
+            <br><br>
+            Secelt Education :
+            <select id="secelt">
+                <option value="">Secelt Option</option>
+                <option value="">BASIC</option>
+                <option value="">DTP</option>
+                <option value="">DIPLOMA</option>
+                <option value="">TALLY</option>
+                <option value="">DFA</option>
+                <option value="">ADFA</option>
+                <option value="">PDFA</option>
+                <option value="">Taxtion</option>
+                <option value="">Programming & Languages</option>
+                <option value="">Professional Courses</option>
+                <option value="">Other Courses</option>
+                <option value="">Personality Development</option>
+            </select>
+
+            <br><br><br>
+            <input type="submit" placeholder="submit" name="submit" id="submit">
+        </form>
+    </div>
+
+    <a href="website computer.html">
+        <div class="backForm">
+            <a href="website computer.html"><< BACK</a>
+        </div>
+        </a>
+
+
+
+        
+    <script src="C:\Users\Dell\OneDrive\Documents\JQuery\jquery.js"></script>
+    <script>
+$(document).ready(function(){
+    $("#subform").submit(function(){
+        alert("form sunmittid")
+    })
+})
+</script>
+</body>
+</html>
